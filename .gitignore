@@ -24,5 +24,4 @@ logs
 !.env.example
 NUXT-NOTES
 server/api/send.post.ts
-package-lock.json
 .github/skills/frontend-debug-fix/SKILL.md
