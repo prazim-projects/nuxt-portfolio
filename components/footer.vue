@@ -1,7 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue';
 const socials = reactive({
-    telegram: 'https://t.me/bilboardmusic',
+    telegram: 'https://t.me/gebicalculus',
     xTwitter: 'https://x.com/bealprazim', 
     githubProjects: 'https://github.com/prazim-projects', 
     githubCoding : 'https://github.com/prasimbaal', 
@@ -15,7 +15,7 @@ const socials = reactive({
   <section class="social-section">
     <div class="social-links">
       <div v-for="(value, key) in socials" :key="key" class="social-item">
-        <a :href="value" class="text-white">{{ key }}</a>
+        <a :href="value" class="text-white" target="_blank">{{ key }}</a>
       </div>
     </div>
   </section>
@@ -42,7 +42,7 @@ const socials = reactive({
           <hr class="divider"/>
           <p><i class="fas fa-home mr-3"></i> Adama Nazreth Ethiopia</p>
           <p><i class="fas fa-envelope mr-3"></i> prasimcontact@gmail.com</p>
-          <p><i class="fas fa-phone mr-3"></i><a href="https://t.me/earphonesplugd"> Telegram</a> </p>
+          <p><i class="fas fa-phone mr-3"></i><a href="https://t.me/earphonesplugdd" target="_blank"> Telegram</a> </p>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@ const socials = reactive({
 
   <div class="copyright">
     © 2024 Copyright:
-    <a class="text-white" href="https://">Leab Freelance</a>
+    <a class="text-white" href="https://prasimbaal.ninja">Leab Freelance</a>
   </div>
 </footer>
 </template>
