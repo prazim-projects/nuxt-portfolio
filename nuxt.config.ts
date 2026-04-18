@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   css: [
     'bootstrap/dist/css/bootstrap.min.css',
-    '~/assets/css/tailwind.css',
+    '@fortawesome/fontawesome-free/css/all.min.css',
   ],
   modules: ['@nuxtjs/tailwindcss'],
 
