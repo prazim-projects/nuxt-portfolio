@@ -13,5 +13,13 @@ export default defineNuxtConfig({
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
   modules: ['@nuxtjs/tailwindcss'],
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: 'G-61WJGN61YF',
+        trigger: 'onNuxtReady'
+      }
+    }
+  }
 
 })
