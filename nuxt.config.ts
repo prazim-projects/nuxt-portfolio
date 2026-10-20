@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   ssr: false,
   app: {
-    baseURL: '/'
+    baseURL: '/',
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/bitmoji.svg' }
+      ]
+    }
   },
   nitro: {
     preset: 'github-pages'
@@ -12,7 +17,8 @@ export default defineNuxtConfig({
     'bootstrap/dist/css/bootstrap.min.css',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
-  modules: ['@nuxtjs/tailwindcss'],
+  // Add '@nuxt/scripts' to your active modules array here
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/scripts'],
   scripts: {
     registry: {
       googleAnalytics: {
@@ -21,5 +27,4 @@ export default defineNuxtConfig({
       }
     }
   }
-
 })
