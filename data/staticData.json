@@ -17,8 +17,8 @@
         {   "category": "Backend-web Dev", "title": "DRF API", "img": "/svgs/django-svg.svg", "desc": "REST APIs and Django templates" },
         {   "category": "Backend-web Dev", "title": "GraphQL API", "img": "/svgs/GraphQL.svg", "desc": "GraphQL API with Django and apollo client" },
         {   "category": "Front-end Web dev", "title": "Vue3 UI", "img": "/svgs/vue3.jpg", "desc": "Elegant UI with Vue3" },
-        {   "category": "Fullstack development", "title": "Fullstack App", "img": "/svgs/Bootstrap_logo.svg", "desc": "Bootstrap css framework" },
-        {   "category": "Fullstack development", "title": "Mobile App", "img": "/svgs/Nuxt JS.svg", "desc": "Nuxt js for server side rendering" },
+        {   "category": "Fullstack development", "title": "Frontend Styling", "img": "/svgs/Bootstrap_logo.svg", "desc": "Bootstrap css framework" },
+        {   "category": "Fullstack development", "title": "Fullstack Web App", "img": "/svgs/Nuxt JS.svg", "desc": "Nuxt js for server side rendering" },
         {   "category": "Fullstack development", "title": "PWA", "img": "/svgs/Ionic.svg", "desc": "Progressive Web App with ionic framework, vue and capacitor" },
         {   "category": "Telegram Bot Developer", "title": "Telegram Bot", "img": "/svgs/ptb-logo.svg", "desc": "Python Telegram bot for business automation" },
         {   "category": "Database Design and Admin", "title": "MYSQL DBMS", "img": "/svgs/mysql-logo.svg", "desc": "Database Management with MYSQL" }
